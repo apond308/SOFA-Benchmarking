@@ -25,7 +25,7 @@ Warning 4: Model 'frac_lut6' output port 'lut4_out' has no timing specification 
 mode 'io[physical]' is disabled in packing by user
 mode 'fle[physical]' is disabled in packing by user
 mode 'frac_logic[default]' is disabled in packing by user
-# Loading Architecture Description took 0.00 seconds (max_rss 8.3 MiB, delta_rss +0.9 MiB)
+# Loading Architecture Description took 0.01 seconds (max_rss 8.3 MiB, delta_rss +0.9 MiB)
 # Building complex block graph
 Warning 5: frac_logic[0].regin[0] unconnected pin in architecture.
 Warning 6: frac_logic[0].regchain[0] unconnected pin in architecture.
@@ -92,7 +92,7 @@ Circuit Statistics:
   Timing Graph Nodes: 24283
   Timing Graph Edges: 46908
   Timing Graph Levels: 108
-# Build Timing Graph took 0.03 seconds (max_rss 30.8 MiB, delta_rss +3.8 MiB)
+# Build Timing Graph took 0.02 seconds (max_rss 30.8 MiB, delta_rss +3.8 MiB)
 Netlist contains 1 clocks
   Netlist Clock 'clk' Fanout: 1946 pins (8.0%), 1930 blocks (40.7%)
 # Load Timing Constraints
@@ -531,14 +531,14 @@ Device Utilization: 0.26 (target 1.00)
 
 Netlist conversion complete.
 
-# Packing took 14.46 seconds (max_rss 80.6 MiB, delta_rss +49.7 MiB)
+# Packing took 14.12 seconds (max_rss 80.6 MiB, delta_rss +49.7 MiB)
 # Load Packing
 Begin loading packed FPGA netlist file.
 Netlist generated from file 'vexriscv.net'.
 Detected 2 constant generators (to see names run with higher pack verbosity)
 Finished loading packed FPGA netlist file (took 0.671875 seconds).
 Warning 25: Treated 2 constant nets as global which will not be routed (to see net names increase packer verbosity).
-# Load Packing took 0.85 seconds (max_rss 113.6 MiB, delta_rss +33.0 MiB)
+# Load Packing took 0.86 seconds (max_rss 113.6 MiB, delta_rss +33.0 MiB)
 Warning 26: Netlist contains 839 global net to non-global architecture pin connections
 Warning 27: Logic block #276 ($true) has only 1 output pin '$true.O[4]'. It may be a constant generator.
 
@@ -648,10 +648,10 @@ Warning 86: in check_rr_node: RR node: 159820 type: OPIN location: (32,1) pin: 9
 Warning 87: in check_rr_node: RR node: 159821 type: OPIN location: (32,1) pin: 95 pin_name: clb.cout[0] capacity: 1 has no out-going edges.
 Warning 88: in check_rr_graph: fringe node 16 IPIN at (0,1) has no fanin.
 	 This is possible on a fringe node based on low Fc_out, N, and certain lengths.
-## Build routing resource graph took 1.58 seconds (max_rss 228.0 MiB, delta_rss +114.4 MiB)
+## Build routing resource graph took 1.62 seconds (max_rss 228.0 MiB, delta_rss +114.4 MiB)
   RR Graph Nodes: 282924
   RR Graph Edges: 3475492
-# Create Device took 1.60 seconds (max_rss 228.0 MiB, delta_rss +114.4 MiB)
+# Create Device took 1.64 seconds (max_rss 228.0 MiB, delta_rss +114.4 MiB)
 
 # Placement
 ## Computing placement delta delay look-up
@@ -718,12 +718,12 @@ Warning 147: in check_rr_node: RR node: 159820 type: OPIN location: (32,1) pin: 
 Warning 148: in check_rr_node: RR node: 159821 type: OPIN location: (32,1) pin: 95 pin_name: clb.cout[0] capacity: 1 has no out-going edges.
 Warning 149: in check_rr_graph: fringe node 16 IPIN at (0,1) has no fanin.
 	 This is possible on a fringe node based on low Fc_out, N, and certain lengths.
-### Build routing resource graph took 1.49 seconds (max_rss 228.9 MiB, delta_rss +1.0 MiB)
+### Build routing resource graph took 1.50 seconds (max_rss 229.1 MiB, delta_rss +1.1 MiB)
   RR Graph Nodes: 282924
   RR Graph Edges: 3475492
 ### Computing delta delays
-### Computing delta delays took 0.23 seconds (max_rss 229.0 MiB, delta_rss +0.1 MiB)
-## Computing placement delta delay look-up took 1.76 seconds (max_rss 229.0 MiB, delta_rss +1.1 MiB)
+### Computing delta delays took 0.23 seconds (max_rss 229.1 MiB, delta_rss +0.1 MiB)
+## Computing placement delta delay look-up took 1.78 seconds (max_rss 229.1 MiB, delta_rss +1.2 MiB)
 
 There are 7655 point to point connections in this circuit.
 
@@ -899,7 +899,7 @@ Aborted Move Reasons:
   duplicate block move to location: 5
   macro move to location illegal: 2
   macro_from swap to location illegal: 243
-# Placement took 4.51 seconds (max_rss 229.2 MiB, delta_rss +1.2 MiB)
+# Placement took 4.56 seconds (max_rss 229.3 MiB, delta_rss +1.3 MiB)
 
 # Routing
 ## Build routing resource graph
@@ -965,7 +965,7 @@ Warning 209: in check_rr_node: RR node: 159820 type: OPIN location: (32,1) pin: 
 Warning 210: in check_rr_node: RR node: 159821 type: OPIN location: (32,1) pin: 95 pin_name: clb.cout[0] capacity: 1 has no out-going edges.
 Warning 211: in check_rr_graph: fringe node 16 IPIN at (0,1) has no fanin.
 	 This is possible on a fringe node based on low Fc_out, N, and certain lengths.
-## Build routing resource graph took 1.50 seconds (max_rss 264.7 MiB, delta_rss +35.5 MiB)
+## Build routing resource graph took 1.50 seconds (max_rss 264.6 MiB, delta_rss +35.4 MiB)
   RR Graph Nodes: 282924
   RR Graph Edges: 3475492
 Confirming router algorithm: TIMING_DRIVEN.
@@ -993,7 +993,7 @@ Restoring best routing
 Critical path: 12.293 ns
 Successfully routed after 16 routing iterations.
 Router Stats: total_nets_routed: 12770 total_connections_routed: 38230 total_heap_pushes: 11041961 total_heap_pops: 2429540
-# Routing took 3.47 seconds (max_rss 265.3 MiB, delta_rss +36.2 MiB)
+# Routing took 3.49 seconds (max_rss 265.2 MiB, delta_rss +35.9 MiB)
 
 Checking to ensure routing is legal...
 Completed routing consistency check successfully.
@@ -1147,6 +1147,6 @@ Setup slack histogram:
 [ -2.9e-09: -1.7e-09) 488 (11.9%) |*************************
 [ -1.7e-09: -5.2e-10) 917 (22.3%) |***********************************************
 
-Timing analysis took 1.36166 seconds (1.26984 STA, 0.0918189 slack) (125 full updates: 108 setup, 0 hold, 17 combined).
+Timing analysis took 1.37482 seconds (1.27829 STA, 0.0965255 slack) (125 full updates: 108 setup, 0 hold, 17 combined).
 VPR suceeded
-The entire flow of VPR took 25.64 seconds (max_rss 265.4 MiB)
+The entire flow of VPR took 25.45 seconds (max_rss 265.5 MiB)
