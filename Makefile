@@ -45,4 +45,4 @@ $(BUILD_PATH):
 
 .PHONY: clean
 clean:
-	rm -rf $(BUILD_PATH)/*
+	rm -rf $(BUILD_PATH)
