@@ -1,0 +1,47 @@
+Netlist_File: pipelined_8bit_adder.net Netlist_ID: SHA256:e447957052f6251c0a52e6a3ec10c21e331400552914d96fb3ef27e5eb381266
+Array size: 34 x 34 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+ram.0.0.0_d_out[0]	21	23	0	#0
+AplusB_adder_sumout_7_cin	18	20	0	#1
+ram.0.0.0_wenb	20	23	0	#2
+out:q_0_	21	0	3	#3
+out:q_1_	21	33	7	#4
+out:q_2_	21	33	4	#5
+out:q_3_	21	0	4	#6
+out:q_4_	21	0	2	#7
+out:q_5_	21	33	6	#8
+out:q_6_	21	33	0	#9
+out:q_7_	21	33	5	#10
+a_st1[6]	18	19	0	#11
+waddr_st1[5]	19	15	0	#12
+$false		14	25	0	#13
+clk		24	0	5	#14
+ren		21	33	3	#15
+wen		19	0	7	#16
+raddr_0_	20	33	0	#17
+raddr_1_	21	33	2	#18
+raddr_2_	21	33	1	#19
+raddr_3_	21	0	5	#20
+raddr_4_	21	0	1	#21
+raddr_5_	20	33	6	#22
+waddr_1_	19	0	5	#23
+waddr_2_	19	0	4	#24
+waddr_3_	19	0	3	#25
+waddr_4_	19	0	0	#26
+waddr_5_	19	0	2	#27
+a_0_		18	0	7	#28
+a_1_		18	0	2	#29
+a_2_		18	33	4	#30
+a_3_		18	33	6	#31
+a_4_		18	0	0	#32
+a_5_		33	19	3	#33
+a_6_		18	0	4	#34
+b_0_		18	0	3	#35
+b_1_		18	0	6	#36
+b_2_		18	0	1	#37
+b_3_		18	0	5	#38
+b_4_		17	0	4	#39
+b_5_		17	0	2	#40
+b_6_		19	0	1	#41

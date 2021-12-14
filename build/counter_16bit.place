@@ -1,0 +1,26 @@
+Netlist_File: counter_16bit.net Netlist_ID: SHA256:194c368963695129033f488bf3766a8876743bc296fe6ed331d93e884be25f02
+Array size: 34 x 34 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+count_dff_Q_5_D_$lut_Y_A[0]	16	30	0	#0
+count_dff_Q_12_D	16	31	0	#1
+out:count[0]	16	33	7	#2
+out:count[1]	16	33	6	#3
+out:count[2]	17	33	5	#4
+out:count[3]	16	0	0	#5
+out:count[4]	16	0	7	#6
+out:count[5]	16	33	3	#7
+out:count[6]	15	33	6	#8
+out:count[7]	16	33	5	#9
+out:count[8]	16	0	4	#10
+out:count[9]	16	0	3	#11
+out:count[10]	17	33	6	#12
+out:count[11]	16	0	6	#13
+out:count[12]	16	33	1	#14
+out:count[13]	16	0	1	#15
+out:count[14]	16	33	2	#16
+out:count[15]	16	0	5	#17
+clk		15	0	3	#18
+reset		16	33	0	#19
+enable		16	33	4	#20
