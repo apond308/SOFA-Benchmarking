@@ -1,4 +1,4 @@
-# SOFA-Benchmarking
+# VPR-Benchmarking
 
 This repository holds the files used for SOFA benchmarking. It uses yosys and VPR to run a benchmark on a test VPR architecture.
 
